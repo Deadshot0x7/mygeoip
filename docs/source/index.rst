@@ -1,17 +1,14 @@
-Welcome to Lumache's documentation!
+Welcome to Mygeoip's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Mygeop is a python package that's  helps to extract the information based on ip address
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   This project is live
 
 Contents
 --------
@@ -19,4 +16,4 @@ Contents
 .. toctree::
 
    usage
-   api
+   
