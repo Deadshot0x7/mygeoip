@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Mygeoip'
+copyright = '2021, Deadshot0x7'
+author = 'SayyedViquarAhmed (Deadshot0x7)'
 
 release = '0.1'
 version = '0.1.0'
