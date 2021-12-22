@@ -1,26 +1,32 @@
-import json as j
-import requests as r
-import time as time
-import urllib
-from urllib.request import urlopen
+import json
+import requests
+
+class mgip:
+
+    def __init__(self, ip):
+        self.ip = ip
 
 
-def findlan(ip):
-    url="ttp://ip-api.com/json"+ip
+    def lon(self):
+        try:
+            url = requests.get(f'http://ip-api.com/json/{self.ip}').json()
+            return url['lon']
 
-    values=j.load(urlopen(url))
-    return(values['lon'])
+        except:
+            return None    
 
-def findcity(ip):
-    url="ttp://ip-api.com/json"+ip
+    def city(self):
+        try:
+            url = requests.get(f'http://ip-api.com/json/{self.ip}').json()
+            return url['city']
 
-    values=j.load(urlopen(url))
-    return(values['city'])
+        except:
+            return None    
 
-def findcity(ip):
-    url="ttp://ip-api.com/json"+ip
+    def zip(self):
+        try:
+            url = requests.get(f'http://ip-api.com/json/{self.ip}').json()
+            return url['zip']
 
-    values=j.load(urlopen(url))
-    return(values['zip'])
-
-
+        except:
+            return None
